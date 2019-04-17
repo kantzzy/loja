@@ -11,6 +11,7 @@ import java.util.Scanner;
  *
  * @author LABORATORIO_INFO
  */
+//SALVE CHEFIA//
 public class Principal {
   
    public static void main(String[] args){    
@@ -33,32 +34,30 @@ public class Principal {
       carro1.peso = scan.next();
       System.out.println("\n");
       
-     
       
+      System.out.print("Nome:");
+      carro2.nome = scan.next();
       
- 
-
+      System.out.print("Marca:");
+      carro2.marca = scan.next();
       
-   
+      System.out.print("Cor:");
+      carro2.cor = scan.next();
       
-      carro2.nome = "Mustang";
-      carro2.marca = "Ford";
-      carro2.cor = "Azul";
-      carro2.fabricação="2019";
-      carro2.largura = "1,80";
-      carro2.peso = "980kg";
+      System.out.print("Fabricação:");
+      carro2.fabricação = scan.next();
       
+      System.out.print("Largura:");
+      carro2.largura = scan.next();
       
-      System.out.println("Nome:"+carro2.nome);
-      System.out.println("Marca:"+carro2.marca);
-      System.out.println("Cor:"+carro2.cor);
-      System.out.println("Fabricação:"+carro2.fabricação);
-      System.out.println("Largura:"+carro2.largura);
-      System.out.println("Peso:"+carro2.peso);
+      System.out.print("Peso:");
+      carro2.peso = scan.next();
+      
+      System.out.println("\n");
+      
+  
    }
-   
-   
-   
+
    }
    
    
