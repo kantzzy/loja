@@ -12,46 +12,48 @@ import java.util.Scanner;
  * @author LABORATORIO_INFO
  */
 //SALVE CHEFIA//
+//Objetos (computacionais) são caracterizados por atributos e métodos. 
+//Atributos são as propriedades de um objeto. Métodos são as ações que um objeto pode realizar.
+//Os objetos são características definidas pelas classes.
+//Neles é permitido instanciar objetos da classe para inicializar os atributos e invocar os métodos.//
+
 public class Principal {
   
    public static void main(String[] args){    
-      Carro carro1 = new Carro(); 
-      Carro carro2 = new Carro();         
+      Carro carro1 = new Carro();         
       
       Scanner scan = new Scanner(System.in);
       
       System.out.print("Nome:");
-      carro1.nome = scan.next();
+      carro1.setNome(scan.next());
       System.out.print("Marca:");
-      carro1.marca = scan.next();
+      carro1.setMarca(scan.next());
       System.out.print("Cor:");
-      carro1.cor = scan.next();
+      carro1.setCor(scan.next());
       System.out.print("Fabricação:");
-      carro1.fabricação = scan.next();
+      carro1.setFabricacao(scan.next());
       System.out.print("Largura:");
-      carro1.largura = scan.next();
+      carro1.setLargura(scan.next());
       System.out.print("Peso:");
-      carro1.peso = scan.next();
+      carro1.setPeso(scan.next());
+      
       System.out.println("\n");
       
       
+      Carro carro2 = new Carro(); 
+      
       System.out.print("Nome:");
-      carro2.nome = scan.next();
-      
+      carro2.setNome(scan.next());
       System.out.print("Marca:");
-      carro2.marca = scan.next();
-      
+      carro2.setMarca(scan.next());
       System.out.print("Cor:");
-      carro2.cor = scan.next();
-      
+      carro2.setCor(scan.next());
       System.out.print("Fabricação:");
-      carro2.fabricação = scan.next();
-      
+      carro2.setFabricacao(scan.next());
       System.out.print("Largura:");
-      carro2.largura = scan.next();
-      
+      carro2.setLargura(scan.next());
       System.out.print("Peso:");
-      carro2.peso = scan.next();
+      carro2.setPeso(scan.next());
       
       System.out.println("\n");
       
